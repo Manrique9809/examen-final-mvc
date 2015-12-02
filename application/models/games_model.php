@@ -20,7 +20,8 @@ class games_model extends Model {
 
         return $this->getAll('games');
 
-        var_dump($get)
+        var_dump($get);
+        die "sdasdasdas";
     }
 
     

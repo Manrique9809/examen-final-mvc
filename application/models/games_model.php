@@ -19,6 +19,8 @@ class games_model extends Model {
     public function get($get) {
 
         return $this->getAll('games');
+
+        var_dump($get)
     }
 
     

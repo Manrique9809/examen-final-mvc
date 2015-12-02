@@ -16,6 +16,10 @@ class Url_helper {
 	    return isset($parts[$seg]) ? $parts[$seg] : false;
 	}
 	
+	function _prueba(){
+		echo("esto es una prueba");
+
+	}
 }
 
 ?>

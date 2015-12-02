@@ -30,6 +30,30 @@
                     <input type="text" class="form-control" id="descripcion" name="descripcion">
                 </div>
 
+                 <div class="col-md-4">
+                    <p>categoria</p>
+                    <select name="categoria" id="categoria" class="form-control">
+                        <option value="">--Seleccione--</option>
+                        <option value="ACCION">ACCION</option>
+                        <option value="TERROR">TERROR</option>
+                        <option value="AVENTURA">AVENTURA</option>
+                        <option value="ESTRATEGIA">ESTRATEGIA</option>
+
+                    </select>
+                </div>
+
+                   <div class="col-md-4">
+                    <p>año de creacion</p>
+                    <input type="date" class="form-control" id="anio_creacion" name="anio_creacion">
+                </div>
+
+                   <div class="col-md-4">
+                    <p>personajes</p>
+                    <input type="text" class="form-control" id="personajes" name="personajes">
+                </div>
+
+
+
                
             </fieldset>
         </div>

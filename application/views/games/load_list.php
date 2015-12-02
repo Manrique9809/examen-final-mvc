@@ -21,6 +21,7 @@
                 <th>Nombre</th>
                 <th>descripcion</th>
                 <th>categoria</th>
+                 <th>año de creacion</th>
                 <th></th>
             </tr>
         </thead>
@@ -31,10 +32,8 @@
                     <td><?php echo $items_games[$x]->nombre ?></td>
                     <td><?php echo $items_games[$x]->descripcion ?></td>
                     <td><?php echo $items_games[$x]->categoria?></td>
+                    <td><?php echo $items_games[$x]->anio_creacion?></td>
                     <td>
-                         <a href=" <?php echo BASE_URL . $controlador . '/load_delete/' . $items_games[$x]->id ?> " class="btn btn-danger">Eliminar</a>
-                        <a href=" <?php echo BASE_URL . $controlador . '/load_update/' . $items_games[$x]->id ?> " class="btn btn-info">Editar</a>	
-
                     </td>
                 </tr>
             <?php endfor; ?>

@@ -1,6 +1,6 @@
 <?php 
 
-$config['base_url'] = 'http://localhost/mvc/'; 
+$config['base_url'] = 'http://examen-final.herokuapp.com/mvc/'; 
 
 $config['default_controller'] = 'games';  
 $config['error_controller'] = 'error';  
